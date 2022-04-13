@@ -1,0 +1,82 @@
+body{
+    margin: 0px;
+    background-image: url(https://m.media-amazon.com/images/G/01/seo/series-project/series-detective-guessing-social.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 0px;
+}
+
+#heading{
+    margin-top: 15px;
+    margin-bottom: 12px;
+    text-align: center;
+    font-size: 5vh;
+    font-family: 'Roboto', sans-serif;
+    color: whitesmoke;
+    font-weight: bold;
+
+}
+
+::placeholder{
+    color: whitesmoke;
+    opacity: 0.7;
+}
+.label{
+    font-size: 4vh;
+    margin-bottom: 3px;
+    margin-top: 12px;
+    color: whitesmoke;
+}
+
+input{
+    width: 85%;
+    height: 5vh;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    border-top: none;
+    border-left:none;
+    color: whitesmoke;
+    background-color: #456d776e;
+    border-right: none;
+
+}
+
+.formbox{
+    border-radius: 5%;
+    width: 50%;
+    margin: auto;
+    background-color: #456d776e;
+    padding: 10px 10px 10px 10px;
+}
+
+input:hover{
+    border-bottom: solid 3px gray;
+}
+
+input:focus{
+    outline: none;
+    border: solid 3px grey;
+}
+
+#btn-submit{
+    margin-top: 20px;
+    height: 3em;
+    outline: none;
+    border:none;
+    border-radius: 5px;
+    background-color: #2d2f9ed2;
+    color: #ccc;
+    font-size: large;
+}
+
+#btn-submit:hover{
+    background-color: #2d2f9e;
+    color: #ccc;
+}
+
+@media(max-width: 600px){
+    .formbox{
+        width: 90%;
+    }
+}
